@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(75, 75, 141);
+    color: white;
+    font-size: 24px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width: 800px) {
+    body {
+        background-color: orange;
+    }
+}
+
+@media (max-width: 500px) {
+    body {
+        background-color: green;
+        font-size: 16px;
+    }
+
+    h1 {
+        display: none;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+}
