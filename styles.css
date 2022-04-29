@@ -11,13 +11,13 @@ nav {
 
 @media (max-width: 800px) {
     body {
-        background-color: orange;
+        background-color: royalblue;
     }
 }
 
 @media (max-width: 500px) {
     body {
-        background-color: green;
+        background-color: darkgreen;
         font-size: 16px;
     }
 
